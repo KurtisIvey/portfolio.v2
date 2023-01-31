@@ -14,24 +14,24 @@ const Header = () => {
           url="https://www.linkedin.com/in/k-ivey/"
           fgColor="black"
           bgColor="transparent"
-          className=" hover:scale-110"
+          className=" hover:scale-110 transition-all duration-100 ease-in-out"
         />
         <SocialIcon
           url="https://github.com/Kitsunebackfire"
           fgColor="black"
           bgColor="transparent"
-          className=" hover:scale-110"
+          className=" hover:scale-110 transition-all duration-100 ease-in-out"
         />
         <SocialIcon
           url="https://www.instagram.com/iv.coding.bjj/"
           fgColor="black"
           bgColor="transparent"
-          className=" hover:scale-110"
+          className=" hover:scale-110 transition-all duration-100 ease-in-out"
         />
       </motion.div>
       <motion.a
         href="mailto:kurtiveycodes@gmail.com"
-        className=" hover:border-b border-b-[#F04E35] flex flex-row items-center "
+        className=" hover:border-b border-b-[#F04E35] flex flex-row items-center  "
         initial={{ x: 500, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 1.35 }}

@@ -22,16 +22,25 @@ const IntroNav = () => {
       <h2 className="text-sm uppercase text-gray-500 tracking-[15px]">
         Fullstack Developer
       </h2>
-      <h1 className="text-5xl lg:text-6xl font-semibold scroll-px-10">
-        <span className="mr-3">{text}</span>
+      <h1 className=" font-semibold scroll-px-10">
+        <span className="mr-3 text-2xl sm:text-4xl lg:text-6xl">{text}</span>
         <Cursor cursorColor="#f7ab0a" />
       </h1>
-      <nav className="flex space-x-10 tracking-[2px] text-gray-600">
-        <a href="#about">About link</a>
-        <a href="#skills">Skills</a>
+      <nav className=" grid grid-cols-2 gap-8 sm:grid-cols-4">
+        <a href="#about" className=" navBtn ">
+          <button></button>
+          About
+        </a>
+        <a href="#skills" className=" navBtn">
+          Skills
+        </a>
 
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="#projects" className=" navBtn">
+          Projects
+        </a>
+        <a href="#contact" className=" navBtn">
+          Contact
+        </a>
       </nav>
     </div>
   );

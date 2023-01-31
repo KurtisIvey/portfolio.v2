@@ -7,3 +7,10 @@
 html {
   scroll-behavior: smooth !important;
 }
+
+@layer components {
+  .navBtn {
+    @apply px-6 py-2 border border-[#242424]/0 rounded-full uppercase text-xs tracking-[2px]
+        transition-all duration-200 ease-in-out hover:border-[#F04E35]/90 hover:text-[#F04E35]/90;
+  }
+}
