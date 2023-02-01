@@ -10,7 +10,7 @@ function App() {
   return (
     <div
       className="bg-[#efededf9]  h-screen snap-y snap-mandatory overflow-y-scroll font-montserrat
-    z-0"
+    z-0 scrollbar scrollbar-track-gray-500/20 scrollbar-thumb-[#223333]/60"
     >
       {/* header */}
       <Header />

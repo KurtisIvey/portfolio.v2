@@ -24,7 +24,7 @@ const IntroNav = () => {
       </h2>
       <h1 className=" font-semibold scroll-px-10">
         <span className="mr-3 text-2xl sm:text-4xl lg:text-6xl">{text}</span>
-        <Cursor cursorColor="#f7ab0a" />
+        <Cursor cursorColor="#F04E35" />
       </h1>
       <nav className=" grid grid-cols-2 gap-8 sm:grid-cols-4">
         <a href="#about" className=" navBtn ">
