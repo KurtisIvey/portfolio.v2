@@ -1,15 +1,22 @@
 import React from "react";
 import ImageCarousel from "../components/ImageCarousel";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="relative h-screen flex flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly items-center mx-auto">
+    <motion.div
+      initial={{ opacity: 0 }}
+      transition={{ duration: 1.5 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      className="relative h-screen flex flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly items-center mx-auto"
+    >
       <h3 className="absolute sm:top-24 top-14  uppercase tracking-[20px] text-gray-500 text-2xl sm:ml-0 ml-3">
         About
       </h3>
-      <div className=" grid grid-cols-1 sm:grid-cols-2 h-fit mt-20 sm:mt-0 gap-2 sm:gap-10">
+      <div className=" grid grid-cols-1 sm:grid-cols-2 h-fit mt-20 sm:mt-0 gap-8 sm:gap-10">
         <ImageCarousel />
-        <div className="text-xs flex flex-col justify-center">
+        <div className="text-xs sm:text-base flex flex-col justify-center mr-1">
           <p>
             Hi, my name is Kurtis and I enjoy creating websites from scratch. My
             interest in coding originally started while I was an over the road
@@ -29,14 +36,14 @@ const About = () => {
           </p>
           <br />
 
-          <p className="text-[.6rem]">
+          <p className="text-[.6rem] sm:text-sm">
             <span className=" text-[#F04E35] ">Fun Fact:</span> I've drove the
             distance equivalent to having driven around the world 28 times, so
             I'm pretty much a professional at sitting on my butt.
           </p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

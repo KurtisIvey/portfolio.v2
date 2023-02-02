@@ -32,7 +32,7 @@ const ImageCarousel = () => {
     },
   ];
   return (
-    <div className="max-w-[190px] max-h-auto  sm:max-w-[400px] sm:max-h-[780px]  min-w-[150px] min-h-[220px] sm:min-w-[300px] sm:min-h-[300px] h-full sm:h-[500px] w-full m-auto relative px-2 ">
+    <div className="max-w-[170px] max-h-auto  sm:max-w-[400px] sm:max-h-[780px]  min-w-[150px] min-h-[220px] sm:min-w-[300px] sm:min-h-[300px] h-full sm:h-[500px] w-full m-auto relative px-2 ">
       <div
         className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
         style={{ backgroundImage: `url(${slides[slidesIndex].url})` }}

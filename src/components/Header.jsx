@@ -9,6 +9,7 @@ const Header = () => {
         initial={{ x: -500, opacity: 0, scale: 0.5 }}
         animate={{ x: 0, opacity: 1, scale: 1 }}
         transition={{ duration: 1.35 }}
+        className=" ml-3"
       >
         <SocialIcon
           url="https://www.linkedin.com/in/k-ivey/"
@@ -34,6 +35,7 @@ const Header = () => {
         initial={{ x: 500, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 1.35 }}
+        className=" mr-3"
       >
         <div className=" hover:scale-105 transition-all duration-100 ease-in-out">
           <SocialIcon
