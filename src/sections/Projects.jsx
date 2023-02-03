@@ -16,14 +16,14 @@ const Projects = () => {
         Projects
       </h3>
       <div
-        className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 mx-auto max-w-[329px]
-         sm:max-w-4xl sm:h-[67%] mt-10 sm:mt-0 
+        className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 mx-auto max-w-[90%]
+         sm:max-w-[92%]  lg:max-w-[942px] sm:h-[67%] mt-10 sm:mt-0 
       scrollbar scrollbar-thin scrollbar-track-gray-500/20 scrollbar-thumb-[#223333]/60"
       >
         {projects.map((project, i) => (
           <div
             className="snap-center w-full flex-shrink-0 flex flex-col space-y-5  items-center justify-center 
-            p-10 md:p-44 h-full "
+            p-10  h-full "
             key={i}
           >
             <motion.img
@@ -42,7 +42,7 @@ const Projects = () => {
                 </span>
                 ups clone
               </h4>
-              <p className="text-[.6rem] md:text-lg text-center md:text-left">
+              <p className="text-[.6rem] md:text-s text-center md:text-left">
                 Marshmallow cupcake dragée chocolate bar pastry pie sesame
                 snaps. Jelly-o caramels oat cake sugar plum cake. Apple pie
                 marzipan pie jelly beans cookie chocolate gummi bears wafer
