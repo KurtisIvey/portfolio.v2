@@ -1,12 +1,58 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Projects = () => {
+  const projects = [1, 2, 3, 4, 5];
+
   return (
-    <div className="relative h-screen flex flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly items-center mx-auto">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1.5 }}
+      className="relative h-screen flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly 
+    mx-auto items-center z-0"
+    >
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Projects
       </h3>
-    </div>
+      <div
+        className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 mx-auto max-w-[329px]
+         sm:max-w-4xl sm:h-[67%] mt-10 sm:mt-0 
+      scrollbar scrollbar-thin scrollbar-track-gray-500/20 scrollbar-thumb-[#223333]/60"
+      >
+        {projects.map((project, i) => (
+          <div
+            className="snap-center w-full flex-shrink-0 flex flex-col space-y-5  items-center justify-center 
+            p-10 md:p-44 h-full "
+            key={i}
+          >
+            <motion.img
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 1.6 }}
+              viewport={{ once: true }}
+              src="https://kitsunebackfire.github.io/portfolio/static/media/bobaProject.5e7f354347c576b3308f.png"
+              alt=""
+              className=""
+            />
+            <div className="space-y-2 px-0 md:px-10 max-w-6xl">
+              <h4 className="text-lg sm:text-4xl font-semibold text-center">
+                <span className="underline decoration-[#f7ab0a]/50">
+                  Project {i + 1} of {projects.length}:
+                </span>
+                ups clone
+              </h4>
+              <p className="text-[.6rem] md:text-lg text-center md:text-left">
+                Marshmallow cupcake dragée chocolate bar pastry pie sesame
+                snaps. Jelly-o caramels oat cake sugar plum cake. Apple pie
+                marzipan pie jelly beans cookie chocolate gummi bears wafer
+                cake. Biscuit toffee cupcake soufflé
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </motion.div>
   );
 };
 

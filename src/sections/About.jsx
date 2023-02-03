@@ -11,7 +11,7 @@ const About = () => {
       viewport={{ once: true }}
       className="relative h-screen flex flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly items-center mx-auto"
     >
-      <h3 className="absolute sm:top-24 top-14  uppercase tracking-[20px] text-gray-500 text-2xl sm:ml-0 ml-3">
+      <h3 className="absolute sm:top-24 top-14  uppercase tracking-[20px] text-gray-500 text-2xl sm:ml-0 ml-6">
         About
       </h3>
       <div className=" grid grid-cols-1 sm:grid-cols-2 h-fit mt-20 sm:mt-0 gap-8 sm:gap-10">
