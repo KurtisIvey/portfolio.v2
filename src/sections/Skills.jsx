@@ -10,21 +10,25 @@ const Skills = () => {
       </h3>
       <div className="grid grid-cols-3 gap-5 mt-8">
         {logos.map((logo) => (
-          <motion.div
-            initial={{ x: -75, opacity: 0, scale: 0.5 }}
-            transition={{ duration: logo.duration }}
-            whileInView={{ x: 0, opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
+          <div
             key={logo.id}
-            className=" flex flex-col justify-center items-center gap-3 mx-3"
+            className="hover:scale-105 transition-all duration-200 ease-in-out"
           >
-            <img
-              src={logo.url}
-              alt={logo.name}
-              className="object-cover rounded-sm w-auto h-10 sm:h-14"
-            />
-            <p className="text-center">{logo.name}</p>
-          </motion.div>
+            <motion.div
+              initial={{ x: -75, opacity: 0, scale: 0.5 }}
+              transition={{ duration: logo.duration }}
+              whileInView={{ x: 0, opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              className=" flex flex-col justify-center items-center gap-3 mx-3 "
+            >
+              <img
+                src={logo.url}
+                alt={logo.name}
+                className="object-cover rounded-sm w-auto h-10 sm:h-14"
+              />
+              <p className="text-center">{logo.name}</p>
+            </motion.div>
+          </div>
         ))}
       </div>
     </div>

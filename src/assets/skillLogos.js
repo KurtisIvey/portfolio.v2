@@ -8,6 +8,7 @@ import nodejsLogo from "./nodejs.svg";
 import reactLogo from "./reactLogo.svg";
 import reduxLogo from "./reduxLogo.svg";
 import tailwindLogo from "./tailwind.svg";
+import expressLogo from "./expressjs.svg";
 
 const logos = [
   {
@@ -69,6 +70,12 @@ const logos = [
     name: "Tailwind",
     id: "10",
     duration: 1.9,
+  },
+  {
+    url: expressLogo,
+    name: "ExpressJs",
+    id: "11",
+    duration: 2.0,
   },
 ];
 
