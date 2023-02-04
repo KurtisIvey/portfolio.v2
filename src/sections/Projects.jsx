@@ -16,13 +16,13 @@ const Projects = () => {
         Projects
       </h3>
       <div
-        className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 mx-auto max-w-[90%]
-         sm:max-w-[92%]  lg:max-w-[942px] sm:h-[67%] mt-10 sm:mt-0 
-      scrollbar scrollbar-thin scrollbar-track-gray-500/20 scrollbar-thumb-[#223333]/60"
+        className="relative w-full h-fit flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 mx-auto max-w-[90%] 
+         sm:max-w-[92%]  lg:max-w-[942px]  mt-10 sm:mt-0 
+       scrollbar-thin scrollbar-track-gray-500/20 scrollbar-thumb-[#223333]/60"
       >
         {projects.map((project, i) => (
           <div
-            className="snap-center w-full flex-shrink-0 flex flex-col space-y-5  items-center justify-center 
+            className="snap-center w-full flex-shrink-0 flex flex-col space-y-5 sm:space-y-10  items-center justify-center 
             p-10  h-full "
             key={i}
           >
@@ -35,14 +35,14 @@ const Projects = () => {
               alt=""
               className=""
             />
-            <div className="space-y-2 px-0 md:px-10 max-w-6xl">
+            <div className="space-y-2 sm:space-y-10 px-0 md:px-10 max-w-6xl">
               <h4 className="text-lg sm:text-4xl font-semibold text-center">
                 <span className="underline decoration-[#f7ab0a]/50">
                   Project {i + 1} of {projects.length}:
                 </span>
                 ups clone
               </h4>
-              <p className="text-[.6rem] md:text-s text-center md:text-left">
+              <p className="text-[.8rem] sm:text-base md:text-xl text-center md:text-left">
                 Marshmallow cupcake dragée chocolate bar pastry pie sesame
                 snaps. Jelly-o caramels oat cake sugar plum cake. Apple pie
                 marzipan pie jelly beans cookie chocolate gummi bears wafer
