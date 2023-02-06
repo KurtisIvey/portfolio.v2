@@ -9,7 +9,7 @@ const Header = () => {
         initial={{ x: -500, opacity: 0, scale: 0.5 }}
         animate={{ x: 0, opacity: 1, scale: 1 }}
         transition={{ duration: 1.35 }}
-        className=" ml-3"
+        className="ml-3 flex landscape:flex-col"
       >
         <SocialIcon
           url="https://www.linkedin.com/in/k-ivey/"
@@ -44,7 +44,7 @@ const Header = () => {
             fgColor="black"
             bgColor="transparent"
           />
-          <p className=" uppercase hidden sm:inline-flex text-sm text-black pr-3">
+          <p className=" uppercase hidden landscape:hidden sm:inline-flex text-sm text-black pr-3">
             Get in Touch
           </p>
         </div>

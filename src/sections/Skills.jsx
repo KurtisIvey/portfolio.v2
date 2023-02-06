@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 
 const Skills = () => {
   return (
-    <div className="relative h-screen flex flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly items-center mx-auto">
+    <div className="relative h-screen landscape:h-full flex flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly items-center mx-auto">
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Skills
       </h3>
-      <div className="grid grid-cols-3 gap-5 mt-8">
+      <div className="grid grid-cols-3 gap-5 mt-8 landscape:mt-[28%]">
         {logos.map((logo) => (
           <div
             key={logo.id}
