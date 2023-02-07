@@ -4,14 +4,14 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="relative h-screen landscape:h-full flex flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly items-center mx-auto">
+    <div className="relative h-full  flex flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly items-center mx-auto  ">
       <h3 className="absolute sm:top-24 top-14  uppercase tracking-[20px] text-gray-500 text-2xl sm:ml-0 ml-6">
         About
       </h3>
 
-      <div className=" grid grid-cols-1 lg:grid-cols-2 h-[71%]  mt-[1%] landscape:mt-[10%] lg:mt-[12%] gap-2 md:gap-10 landscape:gap-2">
+      <div className=" grid grid-cols-1 lg:grid-cols-2 h-[71%]  mt-[30%] sm:mt-[25%]   gap-2 md:gap-4 ">
         <ImageCarousel />
-        <div className="text-xs sm:text-base flex flex-col justify-center mr-1 px-10">
+        <div className="text-xs sm:text-base flex flex-col justify-center mr-1 mt-[5%]  ">
           <p>
             Hi, my name is Kurtis and I enjoy creating websites from scratch. My
             interest in coding originally started while I was an over the road
