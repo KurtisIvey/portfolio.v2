@@ -37,7 +37,7 @@ const ImageCarousel = () => {
   return (
     <div
       className="
-      w-full h-full max-w-[85%] md:max-w-[600px]  min-w-[150px] 
+      w-full h-full max-w-[85%] md:max-w-[650px]  min-w-[150px] 
       min-h-[210px] sm:min-w-[300px] sm:min-h-[300px]  sm:h-[500px]  m-auto relative px-14 "
     >
       <img

@@ -9,25 +9,25 @@ import Skills from "./sections/Skills";
 function App() {
   return (
     <div
-      className="bg-[#efededf9]  h-screen  lg:snap-y  overflow-y-scroll font-montserrat
+      className="bg-[#efededf9] h-screen overflow-y-scroll font-montserrat
     z-0 scrollbar scrollbar-track-gray-500/20 scrollbar-thumb-[#223333]/60"
     >
       {/* header */}
       <Header />
       {/* intro image nav */}
-      <section title="introNav" id="introNav" className="snap-center">
+      <section title="introNav" id="introNav">
         <IntroNav />
       </section>
       {/* about */}
-      <section title="about" id="about" className="snap-start">
+      <section title="about" id="about">
         <About />
       </section>
       {/* skills */}
-      <section title="skills" id="skills" className="snap-center">
+      <section title="skills" id="skills">
         <Skills />{" "}
       </section>
       {/* projects */}
-      <section title="projects" id="projects" className="snap-start">
+      <section title="projects" id="projects">
         <Projects />
       </section>
       {/* contact */}
