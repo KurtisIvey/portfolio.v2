@@ -9,7 +9,7 @@ import Skills from "./sections/Skills";
 function App() {
   return (
     <div
-      className="bg-[#efededf9] h-screen overflow-y-scroll font-montserrat
+      className=" bg-gradient-to-t from-[#e4e4e4f9] to-[#f1f0f0f9] h-screen overflow-y-scroll font-montserrat
     z-0 scrollbar scrollbar-track-gray-500/20 scrollbar-thumb-[#223333]/60"
     >
       {/* header */}
