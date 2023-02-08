@@ -1,5 +1,5 @@
 import React from "react";
-import logos from "../assets/skillLogos";
+import logos from "../assets/skillLogos/skillLogos";
 import { motion } from "framer-motion";
 
 const Skills = () => {

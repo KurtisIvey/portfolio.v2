@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const Mailer = () => {
@@ -16,7 +16,6 @@ const Mailer = () => {
       ...prevParams,
       [name]: value,
     }));
-    console.log(params);
   };
 
   function sendEmail(e) {
@@ -34,27 +33,74 @@ const Mailer = () => {
       );
   }
   return (
-    <div className="">
-      <form
-        action=""
-        onSubmit={(e) => sendEmail(e)}
-        className="flex flex-col gap-2"
-      >
-        <label htmlFor="name">name</label>
-        <input type="text" name="from_name" onChange={handleChange} />
-        <label htmlFor="email">email</label>
-        <input type="email" name="user_email" onChange={handleChange} />
-
-        <label htmlFor="message">Message</label>
-        <textarea
-          name="message"
-          id=""
-          cols="30"
-          rows="4"
-          onChange={handleChange}
-        />
-        <button type="submit" className="bg-blue-200 rounded my-2">
-          Send
+    <div class="py-20  px-4 mx-auto max-w-screen-md mt-[30%] sm:mt-[25%] md:mt-[20%] lg:mt-[15%] xl:mt-[10%]">
+      <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 text-sm sm:text-xl">
+        Got a technical issue you need solved? Looking for a new employee to add
+        to the team? Or if you just want to say hello. Feel free to reach out
+        and I'll try my best to get back to you as soon as possible.
+      </p>
+      <form action="#" class="space-y-8" onSubmit={(e) => sendEmail(e)}>
+        <div>
+          <label
+            for="email"
+            class="block mb-2 text-xs sm:text-sm font-medium text-gray-900 dark:text-gray-300"
+          >
+            Your email
+          </label>
+          <input
+            type="email"
+            id="email"
+            name="user_email"
+            onChange={handleChange}
+            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-xs sm:text-sm rounded-lg
+               focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400
+               dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+            placeholder="yourEmail@gmail.com"
+            required
+          />
+        </div>
+        <div>
+          <label
+            for="name"
+            class="block mb-2 text-xs sm:text-sm font-medium text-gray-900 dark:text-gray-300"
+          >
+            Your name
+          </label>
+          <input
+            type="text"
+            id="name"
+            name="user_name"
+            onChange={handleChange}
+            class="block p-3 w-full text-xs sm:text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm 
+              focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+            placeholder="John Doe"
+            required
+          />
+        </div>
+        <div class="sm:col-span-2">
+          <label
+            for="message"
+            class="block mb-2 text-xs sm:text-sm font-medium text-gray-900 dark:text-gray-400"
+          >
+            Your message
+          </label>
+          <textarea
+            id="message"
+            name="message"
+            onChange={handleChange}
+            rows="6"
+            class="block p-2.5 w-full text-xs sm:text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 
+              focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400
+               dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+            placeholder="Let me know how I can help you"
+          />
+        </div>
+        <button
+          type="submit"
+          class="py-1.5 sm:py-3 px-3.5 sm:px-5 text-xs sm:text-sm font-medium text-center bg-[#F04E35]/90 hover:bg-[#F04E35]/60 text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 
+          focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+        >
+          Send message
         </button>
       </form>
     </div>
