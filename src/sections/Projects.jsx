@@ -1,9 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
+import projects from "../assets/projects/projects";
 
 const Projects = () => {
-  const projects = [1, 2, 3, 4, 5];
-
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -31,22 +30,20 @@ const Projects = () => {
               whileInView={{ opacity: 1 }}
               transition={{ duration: 1.6 }}
               viewport={{ once: true }}
-              src="https://kitsunebackfire.github.io/portfolio/static/media/bobaProject.5e7f354347c576b3308f.png"
-              alt=""
+              src={project.image}
+              alt={project.name}
               className=""
             />
             <div className="space-y-2 sm:space-y-10 px-0 md:px-10 max-w-6xl">
               <h4 className="text-lg sm:text-4xl font-semibold text-center">
-                <span className="underline decoration-[#f7ab0a]/50">
-                  Project {i + 1} of {projects.length}:
-                </span>
-                ups clone
+                Project {i + 1} of {projects.length}: {project.name}
               </h4>
               <p className="text-[.8rem] sm:text-base md:text-xl text-center md:text-left">
-                Marshmallow cupcake dragée chocolate bar pastry pie sesame
-                snaps. Jelly-o caramels oat cake sugar plum cake. Apple pie
-                marzipan pie jelly beans cookie chocolate gummi bears wafer
-                cake. Biscuit toffee cupcake soufflé
+                {project.description}
+              </p>
+
+              <p className="text-xs text-center text-gray-700">
+                Tech Stack: {project.techStack}
               </p>
             </div>
           </div>
