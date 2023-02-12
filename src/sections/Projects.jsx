@@ -23,7 +23,7 @@ const Projects = () => {
           <div
             className="snap-center w-full flex-shrink-0 flex flex-col space-y-5 sm:space-y-10  items-center justify-center 
             p-10  h-full "
-            key={i}
+            key={project.id}
           >
             <motion.img
               initial={{ opacity: 0 }}
