@@ -7,32 +7,32 @@ import tandem from "./tandembike.jpg";
 
 const photos = [
   {
-    name: "my wife and I infront of my truck",
+    alt: "my wife and I infront of my truck",
     image: kurtTrucking1,
     id: 11,
   },
   {
-    name: "me infront of my last truck before",
+    alt: "me infront of my last truck before",
     image: kurtTrucking2,
     id: 12,
   },
   {
-    name: "my wife hanging off the side of my truck",
+    alt: "my wife hanging off the side of my truck",
     image: kurtTrucking3,
     id: 13,
   },
   {
-    name: "solo view of my truck",
+    alt: "solo view of my truck",
     image: kurtTrucking4,
     id: 14,
   },
   {
-    name: "promotion to purple belt",
+    alt: "promotion to purple belt",
     image: beltPromo,
     id: 15,
   },
   {
-    name: "my wife and I riding a tandem bike as she committed to pedaling the last stretch herself",
+    alt: "my wife and I riding a tandem bike as she committed to pedaling the last stretch herself",
     image: tandem,
     id: 16,
   },
