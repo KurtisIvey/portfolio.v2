@@ -18,11 +18,6 @@ const ImageCarousel = () => {
     setSlidesIndex((prev) => prev - 1);
   }
 
-  /*
-  w-full h-full max-w-full max-h-auto min-w-[150px] sm:max-w-[400px] sm:max-h-[780px]
-    min-h-[220px] sm:min-w-[300px] sm:min-h-[300px]  sm:h-[500px]  m-auto relative px-2 
-  */
-
   return (
     <div
       className="

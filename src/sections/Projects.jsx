@@ -54,7 +54,7 @@ const Projects = () => {
               <div className="flex justify-center">
                 <a
                   href={project.githubUrl}
-                  className="text-xs  m-0 text-gray-600 hover:text-[#F04E35]"
+                  className="text-xs  m-0 text-gray-600 hover:text-[#F04E35] underline"
                 >
                   Github Repo
                 </a>
