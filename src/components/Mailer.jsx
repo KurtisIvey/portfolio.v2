@@ -39,7 +39,7 @@ const Mailer = () => {
         to the team? Or if you just want to say hello. Feel free to reach out
         and I'll try my best to get back to you as soon as possible.
       </p>
-      <form action="#" class="space-y-8" onSubmit={(e) => sendEmail(e)}>
+      <form action="#" className="space-y-8" onSubmit={(e) => sendEmail(e)}>
         <div>
           <label
             htmlFor="email"
@@ -62,7 +62,7 @@ const Mailer = () => {
         <div>
           <label
             htmlFor="name"
-            class="block mb-2 text-xs sm:text-sm font-medium text-gray-900 dark:text-gray-300"
+            className="block mb-2 text-xs sm:text-sm font-medium text-gray-900 dark:text-gray-300"
           >
             Your name
           </label>
@@ -77,10 +77,10 @@ const Mailer = () => {
             required
           />
         </div>
-        <div class="sm:col-span-2">
+        <div className="sm:col-span-2">
           <label
             htmlFor="message"
-            class="block mb-2 text-xs sm:text-sm font-medium text-gray-900 dark:text-gray-400"
+            className="block mb-2 text-xs sm:text-sm font-medium text-gray-900 dark:text-gray-400"
           >
             Your message
           </label>
