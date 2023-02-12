@@ -37,13 +37,13 @@ const ImageCarousel = () => {
       <BsChevronCompactLeft
         size={28}
         onClick={changeSlideBackward}
-        className="absolute top-[50%] -translate-x-0 translate-y-[-50%] left-8 text-2xl rounded p-2 bg-black/40  hover:bg-white/10 text-white cursor-pointer"
+        className="absolute top-[50%] -translate-x-0 translate-y-[-50%] left-8 text-2xl rounded p-2 bg-white/30  hover:bg-white/50 text-white cursor-pointer"
       />
 
       <BsChevronCompactRight
         size={28}
         onClick={changeSlideForward}
-        className="absolute top-[50%] -translate-x-0 translate-y-[-50%] right-8 text-2xl rounded p-2 bg-black/40 hover:bg-white/10 text-white cursor-pointer "
+        className="absolute top-[50%] -translate-x-0 translate-y-[-50%] right-8 text-2xl rounded p-2 bg-white/30 hover:bg-white/50 text-white cursor-pointer "
       />
     </div>
   );
