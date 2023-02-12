@@ -31,6 +31,8 @@ const projects = [
     githubUrl: "https://github.com/Kitsunebackfire/project-blog-admin",
     description:
       "A React front end that allows admin to create/edit/delete blog posts that are stored on MongoDB. It is integrated with my node backend that is hosted on Heroku. Due to heroku eco-plan not allowing me to set cookies, I ended up using local storage to store jwt tokens to verify admin status that I manually set in MongoDB. Styling is done via Tailwind css.",
+    techStack: "React, Javascript, Node.js, Express, MongoDB, Tailwind, Heroku",
+
     image: projectBlogAdmin,
   },
   {
@@ -39,8 +41,9 @@ const projects = [
     url: "https://members-only-ki.herokuapp.com/",
     githubUrl: "https://github.com/Kitsunebackfire/members-only",
     description:
-      "A server side Node.js project that utilizes MongoDB for the database. It uses passport local for authentication and is hosted on Heroku. Users with admin status are able to delete posts.",
+      "A server side Node.js project that utilizes MongoDB for the database and webpages built with ejs. It uses passport local for authentication and is hosted on Heroku. Users with admin status are able to delete posts.",
     image: membersOnlyImage,
+    techStack: "Javascript, Node.js, Express, MongoDB, Heroku",
   },
 ];
 
