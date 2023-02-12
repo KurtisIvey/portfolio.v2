@@ -20,7 +20,7 @@ const projects = [
     url: "https://kitsunebackfire.github.io/project-blog-client/",
     githubUrl: "https://github.com/Kitsunebackfire/project-blog-client",
     description:
-      "A React front end that allows users to register to comment and read blog posts. It is integrated with my node backend that is hosted on heroku. Due to heroku eco-plan not allowing me to set cookies, I ended up using local storage to store jwt tokens to verify users. Styling is done via Tailwind css.",
+      "A React front end that allows users to register to comment and read blog posts. It is integrated with my Node.js REST Api that is hosted on heroku. Due to heroku eco-plan not allowing me to set cookies, I ended up using local storage to store jwt tokens to verify users. Styling is done via Tailwind css.",
     techStack: "React, Javascript, Node.js, Express, MongoDB, Tailwind, Heroku",
     image: projectBlogClient,
   },
@@ -30,7 +30,7 @@ const projects = [
     url: "https://kitsunebackfire.github.io/project-blog-admin/",
     githubUrl: "https://github.com/Kitsunebackfire/project-blog-admin",
     description:
-      "A React front end that allows admin to create/edit/delete blog posts that are stored on MongoDB. It is integrated with my node backend that is hosted on Heroku. Due to heroku eco-plan not allowing me to set cookies, I ended up using local storage to store jwt tokens to verify admin status that I manually set in MongoDB. Styling is done via Tailwind css.",
+      "A React front end that allows admin to create/edit/delete blog posts that are stored on MongoDB.It is integrated with my Node.js REST Api that is hosted on Heroku. Due to heroku eco-plan not allowing me to set cookies, I ended up using local storage to store jwt tokens to verify admin status that I manually set in MongoDB. Styling is done via Tailwind css.",
     techStack: "React, Javascript, Node.js, Express, MongoDB, Tailwind, Heroku",
 
     image: projectBlogAdmin,
