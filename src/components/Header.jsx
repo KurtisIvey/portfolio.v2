@@ -31,7 +31,7 @@ const Header = () => {
         />
       </motion.div>
       <motion.a
-        href="mailto:kurtiveycodes@gmail.com"
+        href="#contact"
         initial={{ x: 500, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 1.35 }}
