@@ -6,6 +6,7 @@ import projectBlogAdmin from "./project-blog-admin.jpg";
 const projects = [
   {
     name: "Boba Project",
+    id: 1111,
     url: "https://boba-project-ki.herokuapp.com/",
     githubUrl: "https://github.com/Kitsunebackfire/boba_project",
     description:
@@ -15,6 +16,7 @@ const projects = [
   },
   {
     name: "Project Blog Client",
+    id: 1112,
     url: "https://kitsunebackfire.github.io/project-blog-client/",
     githubUrl: "https://github.com/Kitsunebackfire/project-blog-client",
     description:
@@ -24,6 +26,7 @@ const projects = [
   },
   {
     name: "Project Blog Admin",
+    id: 1113,
     url: "https://kitsunebackfire.github.io/project-blog-admin/",
     githubUrl: "https://github.com/Kitsunebackfire/project-blog-admin",
     description:
@@ -32,6 +35,7 @@ const projects = [
   },
   {
     name: "Members Only Project",
+    id: 1114,
     url: "https://members-only-ki.herokuapp.com/",
     githubUrl: "https://github.com/Kitsunebackfire/members-only",
     description:
