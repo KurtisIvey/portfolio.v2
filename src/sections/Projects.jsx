@@ -15,9 +15,9 @@ const Projects = () => {
         Projects
       </h3>
       <div
-        className="relative w-full h-fit flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 mx-auto max-w-[90%] 
-         sm:max-w-[92%]  lg:max-w-[942px]  mt-[30%] sm:mt-[25%] md:mt-[20%] lg:mt-[15%] xl:mt-[10%]
-       scrollbar-thin scrollbar-track-gray-500/20 scrollbar-thumb-[#223333]/60"
+        className="relative w-full h-fit flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 mx-auto max-w-[89%] 
+         sm:max-w-[91%]  lg:max-w-[900px]  mt-[30%] sm:mt-[25%] md:mt-[20%] lg:mt-[15%] xl:mt-[10%]
+       scrollbar-thin scrollbar-track-gray-500/20 scrollbar-thumb-[#223333]/60 bg-[#e4e4e4bb]"
       >
         {projects.map((project, i) => (
           <div
