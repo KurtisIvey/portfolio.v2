@@ -21,8 +21,8 @@ const Projects = () => {
       >
         {projects.map((project, i) => (
           <div
-            className="snap-center w-full flex-shrink-0 flex flex-col space-y-5 sm:space-y-10  items-center justify-center 
-            p-10  h-full "
+            className="snap-center w-full max-w-[80%] flex-shrink-0 flex flex-col space-y-5 sm:space-y-10  items-center justify-center 
+            p-10  h-full opacity-60 hover:opacity-100 "
             key={project.id}
           >
             <motion.img

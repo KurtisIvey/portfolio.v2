@@ -10,7 +10,7 @@ const projects = [
     url: "https://boba-project-ki.herokuapp.com/",
     githubUrl: "https://github.com/Kitsunebackfire/boba_project",
     description:
-      "A server side Boba collection website that is able to categorize drinks based on temperature. In addition, images for said bobas are able to be uploaded via storage in my AWS S3 bucket and then the url is stored in MongoDB",
+      "A server side Boba collection website that is able to categorize drinks based on temperature. Inform In addition, images for said bobas are able to be uploaded via storage in my AWS S3 bucket and then the url is stored in MongoDB alongside other information.",
     techStack: "Javascript, Node.js, Express, MongoDB, AWS S3 ",
     image: bobaProjectImage,
   },
@@ -41,7 +41,7 @@ const projects = [
     url: "https://members-only-ki.herokuapp.com/",
     githubUrl: "https://github.com/Kitsunebackfire/members-only",
     description:
-      "A server side Node.js project that utilizes MongoDB for the database and webpages built with ejs. It uses passport local for authentication and is hosted on Heroku. Users with admin status are able to delete posts.",
+      "A server side Node.js project that utilizes MongoDB for the database and webpages built with ejs. It uses passport local for authentication and is hosted on Heroku. Custom middleware is implemented in order to restrict deletion priveleges of non admin users.",
     image: membersOnlyImage,
     techStack: "Javascript, Node.js, Express, MongoDB, Heroku",
   },
