@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Skills = () => {
   return (
-    <div className="relative h-fit  flex flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly items-center mx-auto mt-[13%]">
+    <div className="relative h-fit xl:h-[1350px]  flex flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly items-center mx-auto mt-[13%]">
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl xl:text-5xl ml-6">
         Skills
       </h3>

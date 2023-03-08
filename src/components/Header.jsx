@@ -15,19 +15,19 @@ const Header = () => {
           url="https://www.linkedin.com/in/k-ivey/"
           fgColor="black"
           bgColor="transparent"
-          className=" hover:scale-110 transition-all duration-100 ease-in-out"
+          className=" hover:scale-110 transition-all duration-100 ease-in-out xl:scale-130"
         />
         <SocialIcon
           url="https://github.com/Kitsunebackfire"
           fgColor="black"
           bgColor="transparent"
-          className=" hover:scale-110 transition-all duration-100 ease-in-out"
+          className=" hover:scale-110 transition-all duration-100 ease-in-out xl:scale-130"
         />
         <SocialIcon
           url="https://www.instagram.com/iv.coding.bjj/"
           fgColor="black"
           bgColor="transparent"
-          className=" hover:scale-110 transition-all duration-100 ease-in-out"
+          className=" hover:scale-110 transition-all duration-100 ease-in-out xl:scale-130"
         />
       </motion.div>
       <motion.a
@@ -35,16 +35,16 @@ const Header = () => {
         initial={{ x: 500, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 1.35 }}
-        className=" mr-3"
+        className=" mr-5"
       >
-        <div className=" hover:scale-105 transition-all duration-100 ease-in-out">
-          <SocialIcon
-            className="cursor-pointer"
+        <div className=" hover:scale-[108%] transition-all duration-100 ease-in-out flex items-center xl:scale-130">
+          <SocialIcon 
+            className="cursor-pointer "
             network="email"
             fgColor="black"
             bgColor="transparent"
           />
-          <p className=" uppercase hidden  sm:inline-flex text-sm text-black pr-3">
+          <p className=" uppercase hidden  sm:inline-flex text-base xl:text-xl text-black pr-3">
             Get in Touch
           </p>
         </div>

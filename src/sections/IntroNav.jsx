@@ -13,9 +13,9 @@ const IntroNav = () => {
   });
 
   return (
-    <div className=" h-screen  flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
+    <div className=" h-screen  flex flex-col space-y-10 items-center justify-center text-center overflow-hidden">
       <img
-        className="relative rounded-full h-50 w-50 mx-auto object-cover xl:h-60 xl:w-60 "
+        className="relative rounded-full h-40 w-40 md:w-50 md:h-50 xl:w-60 xl:h-60 mx-auto "
         src="https://kitsunebackfire.github.io/portfolio/static/media/headshot.2c1b0e6f396d86cf1bcb.jpeg"
         alt="me"
       />
