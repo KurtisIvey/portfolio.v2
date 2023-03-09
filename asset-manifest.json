@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio.v2/static/css/main.8f70be4b.css",
-    "main.js": "/portfolio.v2/static/js/main.eb2b939c.js",
+    "main.css": "/portfolio.v2/static/css/main.a1f7cb2b.css",
+    "main.js": "/portfolio.v2/static/js/main.c2ba6f98.js",
     "static/media/tandembike.jpg": "/portfolio.v2/static/media/tandembike.f718742d64c7ac880492.jpg",
     "static/media/beltpromo.jpg": "/portfolio.v2/static/media/beltpromo.346b71f69a81e3e1f9da.jpg",
     "static/media/members-only.jpg": "/portfolio.v2/static/media/members-only.662c6db6a96977d20a60.jpg",
@@ -24,11 +24,11 @@
     "static/media/htmlLogo.svg": "/portfolio.v2/static/media/htmlLogo.87f3f64abde68319b96661c04229b687.svg",
     "index.html": "/portfolio.v2/index.html",
     "static/media/cssLogo.svg": "/portfolio.v2/static/media/cssLogo.8624f608fbaaa1695335ea442fdcf019.svg",
-    "main.8f70be4b.css.map": "/portfolio.v2/static/css/main.8f70be4b.css.map",
-    "main.eb2b939c.js.map": "/portfolio.v2/static/js/main.eb2b939c.js.map"
+    "main.a1f7cb2b.css.map": "/portfolio.v2/static/css/main.a1f7cb2b.css.map",
+    "main.c2ba6f98.js.map": "/portfolio.v2/static/js/main.c2ba6f98.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f70be4b.css",
-    "static/js/main.eb2b939c.js"
+    "static/css/main.a1f7cb2b.css",
+    "static/js/main.c2ba6f98.js"
   ]
 }
