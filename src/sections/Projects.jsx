@@ -32,7 +32,7 @@ const Projects = () => {
               viewport={{ once: true }}
               src={project.image}
               alt={project.name}
-              className=""
+              className="max-w-[620px] h-auto"
             />
             <div className="space-y-2 sm:space-y-4 px-0 md:px-10 max-w-6xl">
               <h4 className="text-lg sm:text-4xl font-semibold text-center">
