@@ -21,7 +21,7 @@ const Projects = () => {
       >
         {projects.map((project, i) => (
           <div
-            className="snap-center w-full max-w-[82%] flex-shrink-0 flex flex-col space-y-3   items-center justify-center 
+            className="snap-center w-full max-w-[84%] flex-shrink-0 flex flex-col space-y-3   items-center justify-center 
             p-5  h-full opacity-60 hover:opacity-100 "
             key={project.id}
           >
@@ -42,23 +42,21 @@ const Projects = () => {
                   href={project.url}
                 >
                   {project.name}
+                </a>{' , '}<a
+                  href={project.githubUrl}
+                  className="text-lg sm:text-2xl    m-0 text-gray-600 hover:text-[#F04E35] underline"
+                >
+                  Repo
                 </a>
               </h4>
-              <p className=" text-xs sm:text-base md:text-lg xl:text-xl xxl:text-2xl text-center md:text-left">
+              <p className=" text-xs sm:text-base md:text-lg  text-center md:text-left">
                 {project.description}
               </p>
 
-              <p className="text-xs sm:text-base md:text-lg xl:text-xl xxl:text-2xl text-center text-gray-700">
+              <p className="text-xs sm:text-base md:text-lg   text-center text-gray-700">
                 Tech Stack: {project.techStack}
               </p>
-              <div className="flex justify-center">
-                <a
-                  href={project.githubUrl}
-                  className="text-xs sm:text-base md:text-lg xl:text-xl xxl:text-2xl  m-0 text-gray-600 hover:text-[#F04E35] underline"
-                >
-                  Github Repo
-                </a>
-              </div>
+              
             </div>
           </div>
         ))}
