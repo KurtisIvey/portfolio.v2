@@ -12,7 +12,7 @@ const Header = () => {
         className=""
       >
         <SocialIcon
-          url="https://www.linkedin.com/in/k-ivey/"
+          url="https://www.linkedin.com/in/kurtisivey/"
           fgColor="black"
           bgColor="transparent"
           className=" hover:scale-110 transition-all duration-100 ease-in-out xl:scale-130"
