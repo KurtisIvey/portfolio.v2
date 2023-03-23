@@ -16,7 +16,7 @@ const IntroNav = () => {
     <div className=" h-screen  flex flex-col space-y-10 items-center justify-center text-center overflow-hidden">
       <img
         className="relative rounded-full h-40 w-40 md:w-50 md:h-50 xl:w-60 xl:h-60 mx-auto "
-        src="https://kitsunebackfire.github.io/portfolio/static/media/headshot.2c1b0e6f396d86cf1bcb.jpeg"
+        src="https://kurtisivey.github.io/portfolio/static/media/headshot.2c1b0e6f396d86cf1bcb.jpeg"
         alt="me"
       />
       <h2 className="text-sm  lg:text-3xl  uppercase text-gray-500 tracking-[15px]">
