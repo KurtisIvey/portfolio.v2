@@ -18,7 +18,7 @@ const Header = () => {
           className=" hover:scale-110 transition-all duration-100 ease-in-out xl:scale-130"
         />
         <SocialIcon
-          url="https://github.com/kurtisivey"
+          url="https://github.com/KurtisIvey"
           fgColor="black"
           bgColor="transparent"
           className=" hover:scale-110 transition-all duration-100 ease-in-out xl:scale-130"
