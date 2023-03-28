@@ -72,7 +72,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-[![My Skills](https://skills.thijs.gg/icons?i=js,html,reacttailwind)](https://skills.thijs.gg)
+[![My Skills](https://skills.thijs.gg/icons?i=js,html,react,tailwind)](https://skills.thijs.gg)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,12 +80,10 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-  - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+- [ ] Framer in motion utilized to allow elements to appear
+- [ ] React smooth scroll is added for navigation
+- [ ] The snap feature is utilized via the use of tailwind and present in the project section to allow for scrolling.
+- [ ] A contact form is integrated into the page via emailJs that forwards the form content directly to my email
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
