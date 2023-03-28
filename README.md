@@ -26,7 +26,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="src/assets/portfolio-screenshot.jpeg" alt="Logo" width="80" height="80">
+    <h2>KI</h2>
   </a>
 
 <h3 align="center">Portfolio v2</h3>
