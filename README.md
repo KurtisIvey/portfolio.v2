@@ -72,7 +72,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-(https://skills.thijs.gg/icons?i=js,html,reacttailwind)](https://skills.thijs.gg)
+[![My Skills](https://skills.thijs.gg/icons?i=js,html,reacttailwind)](https://skills.thijs.gg)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
