@@ -39,11 +39,17 @@ const Projects = () => {
                 Project {i + 1} of {projects.length}:{" "}
                 <a
                   className=" text-gray-700 hover:text-[#F04E35] underline"
+                  rel="noreferrer"
                   href={project.url}
+                  target="_blank"
                 >
                   {project.name}
-                </a>{' , '}<a
+                </a>
+                {" , "}
+                <a
                   href={project.githubUrl}
+                  rel="noreferrer"
+                  target="_blank"
                   className="text-lg sm:text-2xl    m-0 text-gray-600 hover:text-[#F04E35] underline"
                 >
                   Repo
@@ -56,7 +62,6 @@ const Projects = () => {
               <p className="text-xs sm:text-base md:text-lg   text-center text-gray-700">
                 Tech Stack: {project.techStack}
               </p>
-              
             </div>
           </div>
         ))}
