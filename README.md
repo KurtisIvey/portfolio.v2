@@ -19,9 +19,6 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![MIT License][license-shield]][https://github.com/git/git-scm.com/blob/main/mit-license.txt]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/kurtisivey/]
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">

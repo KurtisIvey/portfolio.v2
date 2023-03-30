@@ -13,18 +13,21 @@ const Header = () => {
       >
         <SocialIcon
           url="https://www.linkedin.com/in/kurtisivey/"
+          target="_blank"
           fgColor="black"
           bgColor="transparent"
           className=" hover:scale-110 transition-all duration-100 ease-in-out xl:scale-130"
         />
         <SocialIcon
           url="https://github.com/KurtisIvey"
+          target="_blank"
           fgColor="black"
           bgColor="transparent"
           className=" hover:scale-110 transition-all duration-100 ease-in-out xl:scale-130"
         />
         <SocialIcon
           url="https://www.instagram.com/iv.coding.bjj/"
+          target="_blank"
           fgColor="black"
           bgColor="transparent"
           className=" hover:scale-110 transition-all duration-100 ease-in-out xl:scale-130"
@@ -38,7 +41,7 @@ const Header = () => {
         className=" mr-5"
       >
         <div className=" hover:scale-[108%] transition-all duration-100 ease-in-out flex items-center xl:scale-130">
-          <SocialIcon 
+          <SocialIcon
             className="cursor-pointer "
             network="email"
             fgColor="black"
