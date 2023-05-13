@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio.v2/static/css/main.f03b848b.css",
-    "main.js": "/portfolio.v2/static/js/main.f828ea95.js",
+    "main.css": "/portfolio.v2/static/css/main.51fee5fe.css",
+    "main.js": "/portfolio.v2/static/js/main.4aeb3a71.js",
     "static/media/jiujitsuconnectpreview.gif": "/portfolio.v2/static/media/jiujitsuconnectpreview.e42bdf69046d0127d7e6.gif",
     "static/media/tandembike.jpg": "/portfolio.v2/static/media/tandembike.f718742d64c7ac880492.jpg",
     "static/media/beltpromo.jpg": "/portfolio.v2/static/media/beltpromo.346b71f69a81e3e1f9da.jpg",
@@ -25,11 +25,11 @@
     "static/media/htmlLogo.svg": "/portfolio.v2/static/media/htmlLogo.87f3f64abde68319b96661c04229b687.svg",
     "index.html": "/portfolio.v2/index.html",
     "static/media/cssLogo.svg": "/portfolio.v2/static/media/cssLogo.8624f608fbaaa1695335ea442fdcf019.svg",
-    "main.f03b848b.css.map": "/portfolio.v2/static/css/main.f03b848b.css.map",
-    "main.f828ea95.js.map": "/portfolio.v2/static/js/main.f828ea95.js.map"
+    "main.51fee5fe.css.map": "/portfolio.v2/static/css/main.51fee5fe.css.map",
+    "main.4aeb3a71.js.map": "/portfolio.v2/static/js/main.4aeb3a71.js.map"
   },
   "entrypoints": [
-    "static/css/main.f03b848b.css",
-    "static/js/main.f828ea95.js"
+    "static/css/main.51fee5fe.css",
+    "static/js/main.4aeb3a71.js"
   ]
 }
