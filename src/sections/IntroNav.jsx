@@ -20,7 +20,7 @@ const IntroNav = () => {
         alt="me"
       />
       <h2 className="text-sm  lg:text-3xl  uppercase text-gray-500 tracking-[15px]">
-        Fullstack Developer
+        Full Stack Developer
       </h2>
       <h1 className=" font-semibold scroll-px-10">
         <span className="mr-3 text-2xl sm:text-4xl lg:text-5xl ">{text}</span>

@@ -2,15 +2,25 @@ import bobaProjectImage from "./boba-project.jpg";
 import membersOnlyImage from "./members-only.jpg";
 import projectBlogClient from "./project-blog-client.jpg";
 import projectBlogAdmin from "./project-blog-admin.jpg";
+import jiuJitsuConnect from "./jiujitsuconnectpreview.gif";
 
 const projects = [
+  {
+    name: "Jiu Jitsu Connect",
+    id: 1110,
+    githubUrl: "https://github.com/KurtisIvey/jiu-jitsu-connect-client",
+    description:
+      "A social media app that allows jiu jitsu loves to connect and chat. It features a React Frontend that is written in TypeScript using Vite. Redux is utilized to store session info on the client and persisted using redux-persist. The backend utilizes Javascript, AWS S3 bucket, MongoDB, Supertest, Node.js, and Express.js. Both the frontend and backend are hosted on heroku. ",
+    techStack: "JavaScript, TypeScript, Node.js, Express, MongoDB, AWS S3",
+    image: jiuJitsuConnect,
+  },
   {
     name: "Boba Project",
     id: 1111,
     url: "https://boba-project-ki.herokuapp.com/",
     githubUrl: "https://github.com/kurtisivey/boba_project",
     description:
-      "A server side Boba collection website that is able to categorize drinks based on temperature. Inform In addition, images for said bobas are able to be uploaded via storage in my AWS S3 bucket and then the url is stored in MongoDB alongside other information.",
+      "A server side Boba collection website that is able to categorize drinks based on temperature. In addition, images for said bobas are able to be uploaded via storage in my AWS S3 bucket and then the url is stored in MongoDB alongside other information.",
     techStack: "Javascript, Node.js, Express, MongoDB, AWS S3 ",
     image: bobaProjectImage,
   },
